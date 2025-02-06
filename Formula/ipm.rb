@@ -4,10 +4,10 @@ class Ipm < Formula
   
     if Hardware::CPU.arm?
       url "https://github.com/ipmhubio/ipm/releases/download/0.6.0/ipm-osx-arm64-full.zip"
-      sha256 "20cc2bef4366d014567c9c7aa4fda12eb1b888ffff88fcd172b6c02621aa2a5e"
+      sha256 "5283b28163b8aad48138c93a1ab10b583285392478ac948fd1ee503cc14bfce9"
     else
       url "https://github.com/ipmhubio/ipm/releases/download/0.6.0/ipm-osx-x64-full.zip"
-      sha256 "86faa86158bfdf7c0100226c553ac3d8bd070a43a3e33fc0beb0959383d5f9ce"
+      sha256 "19e30ad2a9124595b7dd0c285d175cc09487b461712440c54ba6be8282cbf97e"
     end
   
     def install
