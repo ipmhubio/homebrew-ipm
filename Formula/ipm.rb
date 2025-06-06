@@ -3,11 +3,11 @@ class Ipm < Formula
     homepage "https://ipmhub.io"
   
     if Hardware::CPU.arm?
-      url "https://github.com/ipmhubio/ipm/releases/download/0.9.0/ipm-osx-arm64-full.zip"
-      sha256 "178d5c6623baf13f04fc98609a36e6f683b6028641d223460a7b5e033b74927d"
+      url "https://github.com/ipmhubio/ipm/releases/download/0.10.0/ipm-osx-arm64-full.zip"
+      sha256 "c2d322a2c1e008112df8fae9107c2cbb1a7f200df8026e388816fc7314725e5d"
     else
-      url "https://github.com/ipmhubio/ipm/releases/download/0.9.0/ipm-osx-x64-full.zip"
-      sha256 "48169328c2233406927197088ff258762e2c2dfecdf4a7c60a64386a405ebe72"
+      url "https://github.com/ipmhubio/ipm/releases/download/0.10.0/ipm-osx-x64-full.zip"
+      sha256 "78e5cf1f1695eee158b8ba77c758923f16cf9c9b3779230ded3f25fde770507f"
     end
   
     def install
